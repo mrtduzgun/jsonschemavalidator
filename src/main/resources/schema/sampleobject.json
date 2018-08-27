@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "SampleObject",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "nationalId": {
+            "type": "string"
+        },
+        "emailAddress": {
+            "type": "string",
+            "format": "email"
+        }
+    }
+}
